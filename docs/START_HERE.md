@@ -1,75 +1,90 @@
 # START HERE
 
-This repo is a **support system** for the Official Gaggiuino Documentation.
+This repository is a **support system** for the Official Gaggiuino Documentation.
+
 It does not contain rewritten install steps.
 
 If anything conflicts, the Official Docs win.
 
 ---
 
-## The One Rule You Don’t Break
+## Foundational Rule — No Shadow Documentation
 
-Installation procedures must be followed directly from the
-**Official Gaggiuino Documentation (ZIP)**.
+Installation steps must be followed directly from the Official Gaggiuino Documentation.
 
-This repo may route you, clarify safety, define prerequisites, and define rollback points.
-It may **not** summarize or rewrite the official steps.
+This repo may:
+- Route to the correct official section
+- Clarify safety and prerequisites
+- Define rollback points and stop conditions
+- Clarify terminology
+
+This repo may NOT:
+- Duplicate, summarize, rewrite, or reorder official step sequences
+
+---
+
+## Where the Official Docs Live (in this repo)
+
+Official documentation is stored verbatim at:
+
+- `official/docs/`
+
+Entrypoint:
+- `official/docs/README.md`
+- `official/docs/_sidebar.md`
+
+Navigation aid:
+- `docs/00_suitcase/zip_map.md`
 
 ---
 
 ## Quick Routing
 
-### “I don’t know where to start.”
-Go to the official docs entrypoint:
-- `docs/README.md`
-- `docs/_sidebar.md`
-
-(These are inside the official docs content.)
-
-Also see:
-- `docs/00_suitcase/zip_map.md`
+### “What do I do next?”
+1. Check `README.md` (Now / Next / Later)
+2. Confirm build route in `docs/01_build/build_profile.md`
+3. For any install action, route into `official/docs/` and follow it exactly
 
 ---
 
-### Wiring / Electrical Questions
-1. Confirm your install route in:
-   - `docs/01_build/build_profile.md`
-2. Use the official install path in:
-   - `docs/guides-stm32/`
-3. Cross-check visuals in:
-   - `docs/schematics/`
-   - `docs/media/`
+### Wiring / Electrical
+Use official docs:
+- `official/docs/guides-stm32/`
+- `official/docs/schematics/`
 
-Repo support location:
-- `docs/03_procedures/` (support-only routing/risk/prereqs)
+Also review:
+- `docs/01_build/safety_rules.md` (unplug + lid rule)
+
+Repo support location (support-only):
+- `docs/03_procedures/`
 
 ---
 
 ### Screen / UI / Touchscreen
 Use official docs:
-- `docs/guides-stm32/` (screen / install flow)
-- `docs/manual/gen3/` (UI/manual assets)
+- `official/docs/guides-stm32/`
+- `official/docs/manual/gen3/`
 
-Repo support location:
-- `docs/03_procedures/` (support-only)
+Repo support location (support-only):
+- `docs/03_procedures/`
 
 ---
 
 ### Thermocouple / Sensors
 Use official docs:
-- `docs/guides-stm32/`
-- `docs/schematics/`
+- `official/docs/guides-stm32/`
+- `official/docs/schematics/`
 
-Repo support location:
-- `docs/03_procedures/` (support-only)
+Repo support location (support-only):
+- `docs/03_procedures/`
 
 ---
 
-### Firmware / Restore / Flashing
+### Firmware / Restore
 Use official docs:
-- `docs/restore.html`
-- `docs/emergency_restore.html`
-- `docs/firmware/`
+- `official/docs/restore.html`
+- `official/docs/emergency_restore.html`
+- `official/docs/firmware/`
 
 Do not improvise firmware steps.
 
@@ -77,7 +92,7 @@ Do not improvise firmware steps.
 
 ## Authority Order (Conflict Resolution)
 
-1. Official Gaggiuino Documentation (ZIP)
+1. Official Gaggiuino Documentation (`official/docs/`)
 2. ZIP Map (`docs/00_suitcase/zip_map.md`)
 3. Suitcase Index (`docs/00_suitcase/suitcase_index.md`)
 4. Beau Reference (`docs/01_build/beau_reference.md`)
