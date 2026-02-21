@@ -3,17 +3,19 @@
 ⚠️ This file is **support-only**.
 It must **not** duplicate, summarize, rewrite, or replace official installation steps.
 
-All step-by-step actions must be followed **directly** from the Official Gaggiuino Documentation (ZIP).
+All step-by-step actions must be followed **directly** from the Official Gaggiuino Documentation
+(verbatim copy stored in this repo under `official/docs/`).
 
 ---
 
 ## Official Source (Required)
 
 **Official documentation path(s):**
-- `[Insert exact ZIP path here]`
+- `[Insert exact path under official/docs/ here]`
 
 **Entrypoint (if needed):**
-- `docs/README.md` and `docs/_sidebar.md` (inside the official docs)
+- `official/docs/README.md`
+- `official/docs/_sidebar.md`
 
 **Rule:**
 Follow the official steps in full.
@@ -80,5 +82,5 @@ Stop and reassess using the Official Documentation if any of these occur:
 Use this section for:
 - Terminology clarification
 - Non-procedural safety reminders
-- Links to schematics/media paths inside official docs
+- Links to schematics/media paths inside `official/docs/`
 - Questions to resolve before continuing
