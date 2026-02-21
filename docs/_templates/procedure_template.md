@@ -10,14 +10,14 @@ All step-by-step actions must be followed **directly** from the Official Gaggiui
 
 ## Official Source (Required)
 
-**Official documentation path(s):**
+Official documentation path(s):
 - `[Insert exact path under official/docs/ here]`
 
-**Entrypoint (if needed):**
+Entrypoint (if needed):
 - `official/docs/README.md`
 - `official/docs/_sidebar.md`
 
-**Rule:**
+Rule:
 Follow the official steps in full.
 Do not skip, reorder, or shorten.
 
@@ -40,7 +40,7 @@ Low / Medium / High
 
 Yes / No
 
-If **Yes**:
+If Yes:
 - Explicit confirmation required before proceeding
 - Lid-on rule applies whenever plugged in
 - No improvisation; follow official docs only
@@ -51,7 +51,7 @@ If **Yes**:
 
 Yes / No
 
-**Rollback Point:**
+Rollback Point:
 - `[Define the last safe reversal stage, without listing step sequences]`
 
 ---

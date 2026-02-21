@@ -13,7 +13,7 @@ This repository shall not duplicate, summarize, rewrite, or replace
 official Gaggiuino installation steps.
 
 All installation procedures must be followed directly from the
-Official Gaggiuino Documentation (verbatim copy in this repo).
+Official Gaggiuino Documentation (verbatim copy stored in this repo).
 
 This repository may:
 - Route to the correct official section
@@ -41,28 +41,28 @@ The Official Documentation remains uncontested and primary at all times.
 **Location in this repo:**
 - `official/docs/`
 
-**Use for:**
+Use for:
 - All installation steps
 - Wiring logic
 - Firmware behavior
 - Setup order
 - Configuration
 
-**Status:** Ultimate Source of Truth
+Status: Ultimate Source of Truth
 
-**Entrypoint:**
+Entrypoint:
 - `official/docs/README.md`
 - `official/docs/_sidebar.md`
 
-**Rule:**
+Rule:
 If any document conflicts with the Official Docs,
 the Official Docs always win.
 
 ---
 
-## ZIP Navigation Aid
+## Official Docs Navigation Aid
 
-### Gaggiuino Official Docs Map (This Repo)
+### Gaggiuino Official Docs Map
 
 Use for:
 Identifying the correct section of the official documentation
@@ -70,6 +70,9 @@ before answering or acting.
 
 Status:
 Canonical Support (navigation only)
+
+File:
+- `docs/00_suitcase/zip_map.md`
 
 ---
 
@@ -119,7 +122,7 @@ They do not override documentation.
 If information conflicts, resolve in this order:
 
 1. Official Gaggiuino Documentation (`official/docs/`)
-2. ZIP Map / Navigation Map (`docs/00_suitcase/zip_map.md`)
+2. Official Docs Map (`docs/00_suitcase/zip_map.md`)
 3. This Suitcase Index
 4. Beau Reference
 5. Build Profile

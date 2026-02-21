@@ -56,7 +56,7 @@ Full rules: `docs/01_build/safety_rules.md`
 ---
 
 This repository prioritizes safety, clarity, and long-term maintainability.
-If documentation conflicts, the Official Gaggiuino Documentation ZIP always wins.
+If documentation conflicts, the Official Gaggiuino Documentation (`official/docs/`) always wins.
 
 Installation steps are never duplicated in this repository.
 Always follow the Official Gaggiuino Documentation directly.

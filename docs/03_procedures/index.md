@@ -2,8 +2,8 @@
 
 This folder does **not** contain installation instructions.
 
-All step-by-step installation actions must be followed directly from the
-Official Gaggiuino Documentation (ZIP).
+All step-by-step installation actions must be followed directly from the  
+Official Gaggiuino Documentation (verbatim copy stored in this repo under `official/docs/`).
 
 This folder exists to support safe execution by providing:
 
@@ -29,7 +29,7 @@ Template:
 - `docs/_templates/procedure_template.md`
 
 Minimum required sections:
-- Official Source path(s)
+- Official Source path(s) under `official/docs/`
 - Risk Level
 - Live Power Required
 - Reversible + Rollback Point
@@ -41,6 +41,7 @@ Minimum required sections:
 ## Files in This Folder
 
 Add support files here only when they point to a specific official doc path.
+
 Example filenames (support-only):
 
 - `thermocouple_support.md`
