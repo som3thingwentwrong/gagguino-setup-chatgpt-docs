@@ -1,23 +1,30 @@
-# Procedure Support — [Component Name]
+# Procedure Support — [Component / Topic Name]
 
-⚠️ This document does NOT contain installation steps.
-Follow the Official Gaggiuino Documentation exactly.
+⚠️ This file is **support-only**.
+It must **not** duplicate, summarize, rewrite, or replace official installation steps.
+
+All step-by-step actions must be followed **directly** from the Official Gaggiuino Documentation (ZIP).
 
 ---
 
-## Official Source
+## Official Source (Required)
 
-Official documentation path:
-[Insert exact ZIP path here]
+**Official documentation path(s):**
+- `[Insert exact ZIP path here]`
 
+**Entrypoint (if needed):**
+- `docs/README.md` and `docs/_sidebar.md` (inside the official docs)
+
+**Rule:**
 Follow the official steps in full.
-Do not skip or reorder.
+Do not skip, reorder, or shorten.
 
 ---
 
 ## Applies To
 
-GCP Evo (US) · PCB v4 · Custom Wiring · 4.3" Front Mount · ToFnLED
+GCP Evo (US, 120 VAC) · PCB v4 (STM32U585) · Custom Wiring · 4.3" Front Mount · ToFnLED  
+HW Scales: Deferred
 
 ---
 
@@ -31,8 +38,10 @@ Low / Medium / High
 
 Yes / No
 
-If yes:
-Explicit confirmation required before proceeding.
+If **Yes**:
+- Explicit confirmation required before proceeding
+- Lid-on rule applies whenever plugged in
+- No improvisation; follow official docs only
 
 ---
 
@@ -40,21 +49,36 @@ Explicit confirmation required before proceeding.
 
 Yes / No
 
-Rollback point:
-[Define last safe reversal stage]
+**Rollback Point:**
+- `[Define the last safe reversal stage, without listing step sequences]`
 
 ---
 
 ## Prerequisites
 
 - Machine unplugged
-- Lid removed only when unplugged
+- Lid OFF only when unplugged
+- Correct install route confirmed (custom wiring, PCB path, etc.)
 - Required tools verified
-- Correct install path confirmed in official docs
+- Required parts verified
 
 ---
 
 ## Stop Conditions
 
-If any unexpected condition occurs:
-Stop and reassess using the Official Documentation.
+Stop and reassess using the Official Documentation if any of these occur:
+
+- Unexpected wire colors, connector types, or board labels
+- A step appears ambiguous or mismatched to your machine/route
+- Any sign of heat damage, exposed conductor, or questionable insulation
+- Any instruction would require “guessing”
+
+---
+
+## Notes (Optional)
+
+Use this section for:
+- Terminology clarification
+- Non-procedural safety reminders
+- Links to schematics/media paths inside official docs
+- Questions to resolve before continuing

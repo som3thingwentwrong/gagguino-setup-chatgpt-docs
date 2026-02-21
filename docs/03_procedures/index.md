@@ -1,39 +1,48 @@
-# Procedures
+# Procedures (Support-Only)
 
-This folder does NOT contain installation instructions.
+This folder does **not** contain installation instructions.
 
-All installation steps must be followed directly from
-the Official Gaggiuino Documentation.
+All step-by-step installation actions must be followed directly from the
+Official Gaggiuino Documentation (ZIP).
 
-This folder exists to:
+This folder exists to support safe execution by providing:
 
-- Route to the correct official documentation section
-- Define risk level
-- Define live-power requirements
-- Define prerequisites
-- Define rollback points
-- Provide safety framing
+- Routing to the correct official documentation section
+- Risk level classification (Low/Medium/High)
+- Live-power requirement labeling (Yes/No)
+- Prerequisites / readiness checks
+- Rollback point definitions (without step sequences)
+- Stop conditions and “when to pause” guidance
+- Links to official schematics/media paths
 
-It must never duplicate or summarize official install steps.
+This folder must **never**:
+- Duplicate official steps
+- Summarize step sequences
+- Reorder procedures
+- Replace the official docs as a reference
 
 ---
 
-## Creating a Procedure Support File
+## Creating a New Support File
 
-Use:
-docs/_templates/procedure_template.md
+Template:
+- `docs/_templates/procedure_template.md`
 
-Each support file must include:
-
-- Official source path
-- Risk level
-- Live power requirement
-- Reversibility
-- Rollback point
+Minimum required sections:
+- Official Source path(s)
+- Risk Level
+- Live Power Required
+- Reversible + Rollback Point
 - Prerequisites
-- Stop conditions
+- Stop Conditions
 
 ---
 
-If unsure:
-Return to START_HERE.md
+## Files in This Folder
+
+Add support files here only when they point to a specific official doc path.
+Example filenames (support-only):
+
+- `thermocouple_support.md`
+- `screen_mount_support.md`
+- `custom_wiring_support.md`
