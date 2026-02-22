@@ -15,12 +15,13 @@ GBP converted at approx. £1 ≈ $1.38 USD.
 - Gorilla Glue — $8.58
 - ToFnLED (Time of Flight + LED w/ loom) — $63.83
 - Crimping Tools — $47.46
+- Thermal Paste - $6.35
 
 ---
 
 ## Final Total Cost
 
-$514.30 USD
+$520.65 USD
 
 ---
 
