@@ -16,12 +16,13 @@ GBP converted at approx. £1 ≈ $1.38 USD.
 - ToFnLED (Time of Flight + LED w/ loom) — $63.83
 - Crimping Tools — $47.46
 - Thermal Paste - $6.35
+- Replacement ToFnLED Housing (Mine Broke)- $9
 
 ---
 
 ## Final Total Cost
 
-$520.65 USD
+$529.65 USD
 
 ---
 
