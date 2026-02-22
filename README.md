@@ -9,7 +9,7 @@ HW Scales: Deferred
 ---
 
 ## 🔥 Current Phase
-Preparing for Battle
+Taking Inventory & Taking Names
 
 ---
 
